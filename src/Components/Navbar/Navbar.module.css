@@ -1,0 +1,56 @@
+.navbar{
+    height: 90px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(154, 23, 95);
+    box-shadow: 0 0 10px #000;
+}
+
+.logoContainer{
+    padding: 15px;
+}
+
+.logo{
+    height: 100%;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.link{
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(187, 255, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.link:hover{
+    font-weight: bold;
+}
+
+@media(max-width: 630px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logoContainer{
+        height: 55%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .links{
+        height: 35%;
+        justify-content: center;
+    }
+    .link{
+        font-size: 20px;
+    }
+}

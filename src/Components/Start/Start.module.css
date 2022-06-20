@@ -1,0 +1,155 @@
+.startHeader{
+    padding-top: 90px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startHeaderText{
+    width: 60%;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: rgb(187, 255, 0);
+    text-shadow: 2px 2px 3px #000;
+}
+
+.startHeaderText a{
+    color: rgb(0, 255, 221);
+}
+
+.startRick{
+    height: 700px;
+    background-image: url("https://fondosmil.com/fondo/27365.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    box-shadow: 0 0 10px #000;
+}
+
+.startRickTitle{
+    font-size: 50px;
+    color: rgb(187, 255, 0);
+    text-shadow: 0 0 3px #000;
+    font-family: 'Indie Flower', cursive;
+}
+
+.startRickText{
+    font-size: 30px;
+    width: 400px;
+    margin-top: 10px;
+    color: rgb(0, 255, 221);
+    text-shadow: 0 0 3px #000;
+    font-family: 'Poiret One', cursive;
+}
+
+.startDescriptions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.startDescriptionsCard{
+    width: 35%;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startDescriptionsCardImage{
+    height: 300px;
+}
+
+.startDescriptionsCardText{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(187, 255, 0);
+    text-shadow: 2px 2px 3px #000;
+}
+
+.banner{
+    height: 500px;
+    background-image: url("https://images7.alphacoders.com/106/1062176.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px #000;
+}
+
+.contact{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactRepository{
+    color: rgb(0, 255, 221);
+    font-family: 'Poiret One', cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contactDesignedText{
+    color: rgb(187, 255, 0);
+    font-family: 'Indie Flower', cursive;
+}
+
+.contactDesignedLink{
+    color: rgb(187, 255, 0);
+}
+
+@media(max-width: 930px){
+    .startDescriptions{
+        flex-direction: column;
+        align-items: center;
+    }
+    .startDescriptionsCard{
+        width: 70%;
+        margin: 40px 0;
+    }
+    .startDescriptionsCardText{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 630px){
+    .startHeaderText{
+        width: 80%;
+        font-size: 20px;
+    }
+    .startRick{
+        padding: 0 35px;
+        align-items: center;
+    }
+    .startRickTitle{
+        font-size: 35px;
+        text-align: center;
+    }
+    .startRickText{
+        width: auto;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 500px){
+    .startDescriptionsCardImage{
+        height: 250px;
+    }
+    .startRickTitle{
+        font-size: 25px;
+    }
+    .startRickText{
+        font-size: 18px;
+    }
+}
